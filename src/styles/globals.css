@@ -1,0 +1,36 @@
+/* src/styles/globals.css */
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Botão estilizado */
+.button {
+  background-color: #3b82f6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2563eb;
+}

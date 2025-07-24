@@ -1,0 +1,26 @@
+omni-desk-ai/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/               ← Imagens e ícones estáticos
+│   ├── components/           ← Componentes reutilizáveis
+│   │   ├── DocumentUpload.tsx
+│   │   ├── SummaryPanel.tsx
+│   │   ├── SmartActions.tsx
+│   │   ├── AutomationFlow.tsx
+│   │   └── SidebarMenu.tsx
+│   ├── pages/                ← Páginas principais do app
+│   │   ├── Home.tsx
+│   │   ├── DocumentView.tsx
+│   │   └── Automation.tsx
+│   ├── hooks/                ← Hooks customizados
+│   │   └── useFileProcessor.tsx
+│   ├── styles/               ← Estilo global e Tailwind
+│   │   └── tailwind.css
+│   ├── App.tsx               ← Roteamento principal
+│   ├── main.tsx              ← Ponto de entrada do React
+│   └── router.tsx            ← Configuração das rotas
+├── tailwind.config.js
+├── vite.config.ts
+├── tsconfig.json
+└── package.json

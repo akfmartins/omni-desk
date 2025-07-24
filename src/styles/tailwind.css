@@ -1,0 +1,7 @@
+/* Remove @tailwind directives if not using Tailwind's build process. Use compiled CSS instead. */
+
+body {
+  background-color: #0a0a0a; /* Equivalent to bg-gray-950 */
+  color: #fff; /* Equivalent to text-white */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* Equivalent to font-sans */
+}
